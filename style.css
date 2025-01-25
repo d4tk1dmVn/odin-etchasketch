@@ -7,14 +7,21 @@ h1{
 	width: 900px;
 	height: 850px;
 	margin: 0 auto;
-	flex-wrap: wrap;
+	flex-flow: column nowrap;
 	border: 5px dotted blue;
 	padding: 0px;
+	align-items:stretch;
 	align-content: center;
 }
 
+.row {
+	flex: 1 1 auto;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	flex-flow: row nowrap;
+}
+
 .square {
-	flex: 1 16 auto;
-	height: 200px;
-	width: 200px;
+	flex: 1 1 auto;
 }
